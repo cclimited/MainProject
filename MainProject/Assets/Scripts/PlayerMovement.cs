@@ -6,6 +6,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
 
+    public Gun primaryGun;
+
+    public float health;
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -42,5 +45,15 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+            primaryGun.TriggerDown();
+        else if (Input.GetKey(KeyCode.Mouse0))
+            primaryGun.TriggerHold();
+        else if (Input.GetKeyUp(KeyCode.Mouse0))
+            primaryGun.TriggerUp();
+
+        if (Input.GetKeyDown(KeyCode.R))
+            primaryGun.Reload();
     }
 }
