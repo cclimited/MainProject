@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponSwitch : MonoBehaviour
 {
     public int selectedWeapon = 0;
+    public Gun[] weapons;
 
     void Start()
     {
@@ -17,7 +18,7 @@ public class WeaponSwitch : MonoBehaviour
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
-            if (selectedWeapon >= transform.childCount - 1)
+            if (selectedWeapon >= weapons.Length - 1)
                 selectedWeapon = 0;
             else
                 selectedWeapon++;
@@ -26,7 +27,7 @@ public class WeaponSwitch : MonoBehaviour
         if (Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
             if (selectedWeapon <= 0)
-                selectedWeapon = transform.childCount - 1;
+                selectedWeapon = weapons.Length - 1;
             else
                 selectedWeapon--;
         }
@@ -40,12 +41,12 @@ public class WeaponSwitch : MonoBehaviour
     void SelectWeapon()
     {
         int i = 0;
-        foreach (Transform weapon in transform)
+        foreach (Gun gun in weapons)
         {
             if (i == selectedWeapon)
-                weapon.gameObject.SetActive(true);
+                gun.gameObject.SetActive(true);
             else
-                weapon.gameObject.SetActive(false);
+                gun.gameObject.SetActive(false);
             i++;
         }
     }

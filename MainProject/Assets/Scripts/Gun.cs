@@ -43,6 +43,7 @@ public class Gun : MonoBehaviour
     public virtual void TriggerHold()
     {
         Debug.Log("Trigger Hold");
+        TriggerDown();
     }
 
     public virtual void TriggerUp()

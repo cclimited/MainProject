@@ -31,8 +31,8 @@ Transform:
   m_LocalPosition: {x: 0.04, y: 1.1, z: 0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5412366437805184003}
   - {fileID: 5412366436305382387}
+  - {fileID: 5412366437805184003}
   m_Father: {fileID: 5412366436631446083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -144,7 +144,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5412366436190941497}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!108 &5412366436305382384
 Light:
@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 5412366436631446082}
-  primaryGun: {fileID: 5412366436476005048}
+  weaponSwitcher: {fileID: 5412366437805184000}
   health: 200
   speed: 12
   gravity: -19.62
@@ -538,7 +538,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5412366437805184002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -546,7 +546,7 @@ Transform:
   - {fileID: 5412366438073918047}
   - {fileID: 5412366438102345768}
   m_Father: {fileID: 5412366436190941497}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5412366437805184000
 MonoBehaviour:
@@ -561,6 +561,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedWeapon: 0
+  weapons:
+  - {fileID: 5412366436476005048}
+  - {fileID: 5412366438073918034}
+  - {fileID: 5412366438102345775}
 --- !u!1 &5412366437812079858
 GameObject:
   m_ObjectHideFlags: 0

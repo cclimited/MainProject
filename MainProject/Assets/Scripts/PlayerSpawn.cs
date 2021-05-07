@@ -10,7 +10,7 @@ public class PlayerSpawn : MonoBehaviour
     
 
     
-    void Start()
+    void Awake()
     {
         SpawnPlayer();        
     }

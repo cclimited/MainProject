@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
+
     public CharacterController controller;
 
-    public Gun primaryGun;
+    public WeaponSwitch weaponSwitcher;
 
     public float health;
     public float speed = 12f;
@@ -19,6 +21,11 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 velocity;
     public bool isGrounded;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
 
     void Update()
@@ -47,13 +54,13 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
-            primaryGun.TriggerDown();
+            weaponSwitcher.weapons[weaponSwitcher.selectedWeapon].TriggerDown();
         else if (Input.GetKey(KeyCode.Mouse0))
-            primaryGun.TriggerHold();
+            weaponSwitcher.weapons[weaponSwitcher.selectedWeapon].TriggerHold();
         else if (Input.GetKeyUp(KeyCode.Mouse0))
-            primaryGun.TriggerUp();
+            weaponSwitcher.weapons[weaponSwitcher.selectedWeapon].TriggerUp();
 
         if (Input.GetKeyDown(KeyCode.R))
-            primaryGun.Reload();
+            weaponSwitcher.weapons[weaponSwitcher.selectedWeapon].Reload();
     }
 }

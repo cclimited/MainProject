@@ -38,6 +38,7 @@ public class Enemy : MonoBehaviour
         navAgent = this.GetComponent<NavMeshAgent>();
         animator = this.GetComponent<Animator>();
         startingPosition = this.transform.position;
+        target = PlayerMovement.instance.transform;
     }
 
 
