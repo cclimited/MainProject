@@ -280,16 +280,20 @@ MonoBehaviour:
   curClip: 30
   maxAmmo: 90
   ammo: 90
-  DMG: 3
+  DMG: 6
   ROF: 0.1
   range: 30
-  spreadAt100m: 0
+  spreadAt100m: 15
+  animator: {fileID: 3195715888983536294}
   reloadTime: 1.5
   isReloading: 0
   spawnPoint: {fileID: 3117155055261152348}
   hitMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  muzzle: {fileID: 1336949550903370, guid: 4543ab5e3d405ec40a8d4e9aa5165030, type: 3}
+  impactEffect: {fileID: 5669800223667452664, guid: c4d76c55ad99342429d7f58038e49db7,
+    type: 3}
 --- !u!1 &3717162366876961906
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +321,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3717162366876961906}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.91, y: -0.47, z: 1.008}
+  m_LocalPosition: {x: 0.7, y: -0.47, z: 0.72}
   m_LocalScale: {x: 6.0527525, y: 6.052753, z: 6.731901}
   m_Children:
   - {fileID: 1584195930489057327}
@@ -389,16 +393,20 @@ MonoBehaviour:
   curClip: 8
   maxAmmo: 24
   ammo: 24
-  DMG: 1
-  ROF: 0.5
+  DMG: 12
+  ROF: 0.7
   range: 30
   spreadAt100m: 45
+  animator: {fileID: 3195715888983536294}
   reloadTime: 1.5
   isReloading: 0
   spawnPoint: {fileID: 1584195930489057327}
   hitMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  muzzle: {fileID: 1336949550903370, guid: 4543ab5e3d405ec40a8d4e9aa5165030, type: 3}
+  impactEffect: {fileID: 5669800223667452664, guid: c4d76c55ad99342429d7f58038e49db7,
+    type: 3}
 --- !u!1 &4178210613553149338
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +510,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4862952825115780069}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.22579987, z: 0.0024999965}
+  m_LocalPosition: {x: 0, y: 0.2333, z: 0.0025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7178924390868987204}
@@ -637,16 +645,20 @@ MonoBehaviour:
   curClip: 12
   maxAmmo: 36
   ammo: 36
-  DMG: 1
-  ROF: 0.5
+  DMG: 3
+  ROF: 0.3
   range: 30
   spreadAt100m: 0
+  animator: {fileID: 3195715888983536294}
   reloadTime: 1.5
   isReloading: 0
   spawnPoint: {fileID: 3491482097453417024}
   hitMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  muzzle: {fileID: 1336949550903370, guid: 4543ab5e3d405ec40a8d4e9aa5165030, type: 3}
+  impactEffect: {fileID: 5669800223667452664, guid: c4d76c55ad99342429d7f58038e49db7,
+    type: 3}
 --- !u!1 &7543615390976348006
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5078690110349921151}
   - component: {fileID: 7650399838598692845}
+  - component: {fileID: 3195715888983536294}
   m_Layer: 9
   m_Name: Weapon Holder
   m_TagString: Untagged
@@ -821,6 +834,25 @@ MonoBehaviour:
   - {fileID: 3595395254374740388}
   - {fileID: 4543816175313754700}
   - {fileID: 8901161376202381860}
+--- !u!95 &3195715888983536294
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8503205221816426105}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3ebe0e7f149632478e5956f8290d0b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &9047495117639448769
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,7 @@ public class Gun : MonoBehaviour
     public float spreadAt100m;
 
     float nextShot = 0;
+    public Animator animator;
 
     [Header("Reloading")]
     public float reloadTime = 1.5f;
@@ -24,12 +25,23 @@ public class Gun : MonoBehaviour
     public Transform spawnPoint;
     public LayerMask hitMask = -1;
 
+    [Header("Effects")]
+    public GameObject muzzle;
+    public GameObject impactEffect;
+
+
+    void OnEnable()
+    {
+        isReloading = false;
+        animator.SetBool("Reloading", false);
+    }
 
     public virtual void TriggerDown()
     {
         if (isReloading || Time.time < nextShot)
             return;
-
+        
+        
         if (curClip > 0)
         {
             curClip--;
@@ -53,6 +65,9 @@ public class Gun : MonoBehaviour
 
     public virtual void Shoot()
     {
+        GameObject currentMuzzle = Instantiate(muzzle, spawnPoint.position, spawnPoint.rotation);
+        currentMuzzle.transform.parent = spawnPoint;
+
         //Define a ray
         RaycastHit hit;
         Ray gunRay = new Ray(spawnPoint.position, spawnPoint.forward);
@@ -81,7 +96,10 @@ public class Gun : MonoBehaviour
                 enemy.TakeDamage(DMG);
             }
         }
+        GameObject impactGameObject = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+        Destroy(impactGameObject, 1f);
     }
+    
 
     public virtual void Reload()
     {
@@ -95,7 +113,12 @@ public class Gun : MonoBehaviour
     {
         isReloading = true;
 
-        yield return new WaitForSeconds(reloadTime);
+        animator.SetBool("Reloading", true);
+
+        yield return new WaitForSeconds(reloadTime - .25f);
+        animator.SetBool("Reloading", false);
+        yield return new WaitForSeconds(.25f);
+
         curClip = clipSize;
 
         isReloading = false;

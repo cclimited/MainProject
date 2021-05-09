@@ -15,11 +15,11 @@ C:/Users/User/Desktop/MainProject/MainProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55827
+56075
 Successfully changed project path to: C:/Users/User/Desktop/MainProject/MainProject
 C:/Users/User/Desktop/MainProject/MainProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path F:/jmc/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,161 +35,160 @@ Initialize mono
 Mono path[0] = 'F:/jmc/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/jmc/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/jmc/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/jmc/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002208 seconds.
+Registered in 0.001414 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.143 seconds
+- Completed reload, in  2.119 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003375 seconds.
+Registered in 0.002696 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
+- Completed reload, in  1.048 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 60.6 MB.
 System memory in use after: 60.7 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 1.691400 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.414700 ms  DeleteObjects: 0.071000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 1.637600 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.380300 ms  DeleteObjects: 0.098600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Elevator.controller
-  artifactKey: Guid(22d4b3a067c97e24690cf8d2422fcff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Elevator.controller using Guid(22d4b3a067c97e24690cf8d2422fcff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7a8d15dfcc86e92c0925eac2d8ba18') in 0.101906 seconds
-  Import took 0.104884 seconds .
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights
+  artifactKey: Guid(9a8b8ccdb0cb56842926faf128cbfac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights using Guid(9a8b8ccdb0cb56842926faf128cbfac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d16d018c83d04362225111a61970451') in 0.026249 seconds
+  Import took 0.033125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.044091 seconds.
-  path: Assets/Scripts/ElevatorEndIdle.anim
-  artifactKey: Guid(72938043587c7344db8de4456be94b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ElevatorEndIdle.anim using Guid(72938043587c7344db8de4456be94b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c422d3a018d9d13d241cf278bafbc3') in 0.021774 seconds
-  Import took 0.025493 seconds .
+  Time since last request: 0.000896 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_corner_1_blue.prefab
+  artifactKey: Guid(7b45b788a1417934faed26ad07e2f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_corner_1_blue.prefab using Guid(7b45b788a1417934faed26ad07e2f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4923100b5547049952726912dad20d50') in 0.259647 seconds
+  Import took 0.264517 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.835831 seconds.
-  path: Assets/Scripts/ElevatorMoveForward.anim
-  artifactKey: Guid(3cc6852625635c8419f1a7d2ec170411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ElevatorMoveForward.anim using Guid(3cc6852625635c8419f1a7d2ec170411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77c5222956f76735aac72395ea4796b') in 0.011590 seconds
-  Import took 0.014224 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 38.2 MB.
-System memory in use after: 38.3 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1574.
-Total: 1.887800 ms (FindLiveObjects: 0.128900 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.707400 ms  DeleteObjects: 0.011200 ms)
+  Time since last request: 4.640435 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1_blue.prefab
+  artifactKey: Guid(7bfca64f0cf4ef248b199077f3f98357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1_blue.prefab using Guid(7bfca64f0cf4ef248b199077f3f98357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f62e78cdc5808c56833c41139a676b') in 0.031634 seconds
+  Import took 0.034279 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.015290 seconds.
-  path: Assets/Scripts/ElevatorMove.cs
-  artifactKey: Guid(01ac0a09af6ab6b478614ac0b802b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ElevatorMove.cs using Guid(01ac0a09af6ab6b478614ac0b802b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0dcb36cc5ffcff6cfa7c71c35c2b2c') in 0.045077 seconds
-  Import took 0.047512 seconds .
+  Time since last request: 0.001709 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1_blue.prefab
+  artifactKey: Guid(7bfca64f0cf4ef248b199077f3f98357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1_blue.prefab using Guid(7bfca64f0cf4ef248b199077f3f98357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f62e78cdc5808c56833c41139a676b') in 0.032612 seconds
+  Import took 0.035879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.647422 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2_blue.prefab
+  artifactKey: Guid(5412c75372d92be4484fa4a55b5c99e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2_blue.prefab using Guid(5412c75372d92be4484fa4a55b5c99e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cd769a03f1da9727b063aced24c75') in 0.023981 seconds
+  Import took 0.027246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.886393 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3_blue.prefab
+  artifactKey: Guid(8b5797a18349fb546be8acddc71151ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3_blue.prefab using Guid(8b5797a18349fb546be8acddc71151ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a917a52d3dbb6bcdd4aa96537445725f') in 0.022489 seconds
+  Import took 0.025320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.577803 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3.prefab
+  artifactKey: Guid(10b4213a276bd0f4d93c345fd1420858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3.prefab using Guid(10b4213a276bd0f4d93c345fd1420858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fc60163f013dd46d70949c70658b8d') in 0.022497 seconds
+  Import took 0.024949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.008189 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2.prefab
+  artifactKey: Guid(8e32be8f06ec06448ac537b609c2d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2.prefab using Guid(8e32be8f06ec06448ac537b609c2d7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a282856a2d5217e566ccf209cab95b3') in 0.212393 seconds
+  Import took 0.218374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.273188 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1.prefab
+  artifactKey: Guid(bf47bd9e279487a4ca3d6f7a10492900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1.prefab using Guid(bf47bd9e279487a4ca3d6f7a10492900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905c880bf6c488fdaccd2688dc244d33') in 0.022704 seconds
+  Import took 0.025880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.482041 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_corner_1.prefab
+  artifactKey: Guid(43373d8b4f572cf468859751b9dcbbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_corner_1.prefab using Guid(43373d8b4f572cf468859751b9dcbbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271ed9f2af2669a97fedb4424b7a8630') in 0.027540 seconds
+  Import took 0.030168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.998327 seconds.
+  path: Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_celing_2.prefab
+  artifactKey: Guid(e15828603e27c5e42b39860e4f55da70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Area/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_celing_2.prefab using Guid(e15828603e27c5e42b39860e4f55da70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b433193b40286c37fae0220de36d92f') in 0.024532 seconds
+  Import took 0.026968 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002189 seconds.
+Registered in 0.002256 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.5 MB.
-System memory in use after: 60.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1578.
-Total: 2.628200 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.320900 ms  DeleteObjects: 0.040800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.621527 seconds.
-  path: Assets/Scripts/ElevatorMove.cs
-  artifactKey: Guid(01ac0a09af6ab6b478614ac0b802b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ElevatorMove.cs using Guid(01ac0a09af6ab6b478614ac0b802b5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b725d091ce9175844555d3749326bb4d') in 0.008876 seconds
-  Import took 0.011129 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002628 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.938 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.5 MB.
-System memory in use after: 60.6 MB.
+System memory in use before: 63.7 MB.
+System memory in use after: 63.8 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1581.
-Total: 2.173500 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.074200 ms MarkObjects: 1.855700 ms  DeleteObjects: 0.024500 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 1.864100 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.646200 ms  DeleteObjects: 0.013500 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002243 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.924 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.5 MB.
-System memory in use after: 60.6 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1584.
-Total: 1.876400 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.066300 ms MarkObjects: 1.628000 ms  DeleteObjects: 0.014500 ms)
+Received Import Request.
+  Time since last request: 1121.952559 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(58e27fdf07a458b4f87b8a05d685dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(58e27fdf07a458b4f87b8a05d685dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64534ee2193866a39f94ad06f7eef944') in 0.022723 seconds
+  Import took 0.025367 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
