@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
 {
     [Header("Enemy Stats")]
     public float Health;
+    public float DMG;
 
     [Header("Enemy Settings")]
     public Transform target;
@@ -38,7 +39,7 @@ public class Enemy : MonoBehaviour
         navAgent = this.GetComponent<NavMeshAgent>();
         animator = this.GetComponent<Animator>();
         startingPosition = this.transform.position;
-        target = PlayerMovement.instance.transform;
+        target = Player.instance.transform;
     }
 
 
@@ -103,6 +104,8 @@ public class Enemy : MonoBehaviour
         //target is in range, and not obstructed.
         return true;
     }
+
+    
 
     public void TakeDamage(float amount)
     {
