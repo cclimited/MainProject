@@ -55,15 +55,17 @@
      <Compile Include="Assets\Scripts\ElevatorDoor.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\ElevatorMove.cs" />
+     <Compile Include="Assets\Downloaded Assets\BigRookGames\_AssetPacks\Stylized Weapon Pack\M4 Scoped Assault Rifle\Scripts\GunfireController.cs" />
      <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
-     <Compile Include="Assets\Creatures\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
+     <Compile Include="Assets\Downloaded Assets\Creatures\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\Area\Sci Fi Modular Pack\Scripts\CameraController.cs" />
-     <None Include="Assets\Area\_3D Scifi Kit Starter Kit\_Docs\Doc.txt" />
-     <None Include="Assets\Survival Tools\ReadMe\ReadMe.txt" />
-     <None Include="Assets\Blood decal pack\readme.txt" />
-     <None Include="Assets\Area\Sci-Fi Styled Modular Pack\Readme.txt" />
-     <None Include="Assets\Creatures\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
+     <Compile Include="Assets\Downloaded Assets\Sci Fi Modular Pack\Scripts\CameraController.cs" />
+     <None Include="Assets\Downloaded Assets\BigRookGames\_AssetPacks\Stylized Weapon Pack\M4 Scoped Assault Rifle\Readme.txt" />
+     <None Include="Assets\Downloaded Assets\_3D Scifi Kit Starter Kit\_Docs\Doc.txt" />
+     <None Include="Assets\Downloaded Assets\Survival Tools\ReadMe\ReadMe.txt" />
+     <None Include="Assets\Downloaded Assets\Blood decal pack\readme.txt" />
+     <None Include="Assets\Downloaded Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
+     <None Include="Assets\Downloaded Assets\Creatures\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
  <Reference Include="UnityEngine">
  <HintPath>F:/jmc/2020.3.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
