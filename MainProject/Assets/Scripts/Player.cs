@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        Light.SetActive(false);
+        Light.SetActive(true);
     }
 
     void Update()
